@@ -10,7 +10,7 @@ class Preprocessor:
                                 transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
                                 ])
     def run(self, image):
-        return self.preprocessamento(image)
+        return self.preprocessing(image)
 
 # Get the label according to the index best ranked
 def getLabel(index):
