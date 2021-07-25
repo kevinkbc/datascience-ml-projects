@@ -1,0 +1,15 @@
+*********** *********** *********** *********** *********** *********** 
+Simple API in FLask using Docker and Docker-Compose with prebuilt nvidia containers
+
+*********** *********** *********** *********** *********** *********** 
+
+***********  AlexNet
+This projects load pre-trained AlexNet weights in a model ready to make predictions on the imagenet dataset.
+
+The routes were tested using Postman 
+
+Just run:
+
+docker-compose up
+
+And the flask server will be ready on port 8081

@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  server:
+    container_name: "app_servidor"
+    build: ./server
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - 0.0.0.0:8081:8081/tcp
