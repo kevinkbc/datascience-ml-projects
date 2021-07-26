@@ -13,3 +13,5 @@ Just run:
 docker-compose up
 
 And the flask server will be ready on port 8081
+
+Request for the image classification can be sent using a parameter 'file' of image type
